@@ -29,8 +29,36 @@
 <body class="font-lato">
     <header class="max-w-screen-xl mx-auto ">
          <!-- Nav bar section -->
+<nav>
+  <div class="navbar bg-[#F85559] rounded-[70px] mx-auto max-w-screen-xl ">
+    <div class="navbar-start">
+      <div class=" sm:dropdown">
+        <ul class="lg:flex lg:gap-16 px-10 text-xl text-white">
+          <li>Home</li>
+          <li>about</li>
+          <li>Contact</li>
+          <li>Bill</li>
+        </ul>
+      </div>
+    </div>
+    <div class="navbar-center ">
+      <img src="./images/logo.png" alt="">
+      <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+    </div>
+    <div class="navbar-end  ">
+    <input class="rounded-xl px-4" type="search" placeholder="Search Here">
+    <button class="btn btn-ghost btn-circle relative">
+      <svg xmlns="http://www.w3.org/2000/svg"  class="h-5 w-5 absolute -left-8 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+    </button>
+    </div>
+  </div>
+
+
+
+</nav>
+
          <!-- Slider Section -->
-         <div class="carousel max-w-screen-xl ">
+         <div class="carousel max-w-screen-xl  my-10">
           <!-- Slide one -->
           <div id="slide1" class="carousel-item relative max-w-screen-xl  lg:w-full">
             <div>
@@ -113,7 +141,148 @@
     <!-- Main section Start -->
     <main>
 
+      <!-- Deal of the day Section -->
+      <div class="my-28 max-w-screen-xl mx-auto flex items-center gap-7 flex-col lg:flex-row justify-between">
+        <!-- Text Deal of the Day -->
+        <div class="space-y-2 px-6">
+          <h2 class="text-5xl font-extrabold py-4 lg:text-left text-center ">Deal of the day</h2>
+          <p class="text-xl font-semibold text-center lg:text-left ">Contrary to popular belief, is not simply random text. It has roots <br> in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <!-- Timer section -->
+        <div>
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>:
+              </span>
+              days
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>:
+              </span>
+              hours
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>:
+              </span>
+              min
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:45;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+
+        </div>
+        
+        
+      </div>
+      
+<!-- Card Section -->
+      <div class="max-w-screen-xl mx-auto flex items-center flex-col lg:flex-row gap-5">
+        <!-- First Card -->
+        <div class="card w-[300px] h-[450px] bg-[#FFF] rounded-lg ">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit6.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b py-4 text-3xl font-bold">12.90$ - 18.85$</h2>
+            <p class="text-xl font-semibold pt-2">Apples</p>
+            <div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button class=" text-[#F85559] pb-3 font-bold ">Details</button>
+            </div>
+          </div>
+        </div>
+        <!-- Second Card -->
+        <div class="card w-[300px] h-[450px] bg-white rounded-lg ">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit7.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b py-4  text-3xl font-bold">12.90$ - 18.85$</h2>
+            <p class="text-xl font-semibold pt-2">Apples</p>
+            <div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button class=" text-[#F85559] pb-3 font-bold ">Details</button>
+            </div>
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="card w-[300px] h-[450px] bg-white rounded-lg ">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit8.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b py-4  text-3xl font-bold">12.90$ - 18.85$</h2>
+            <p class="text-xl font-semibold pt-2">Apples</p>
+            <div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button class=" text-[#F85559] pb-3 font-bold ">Details</button>
+            </div>
+          </div>
+        </div>
+        <!-- Fourth Card -->
+        <div class="card w-[300px] h-[450px] bg-white rounded-lg ">
+          <figure class="px-10 pt-10">
+            <img src="./images/fruit9.png" alt="Shoes" class="rounded-xl" />
+          </figure>
+          
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b pt-4 text-3xl font-bold">12.90$ - 18.85$</h2>
+            <p class="text-xl font-semibold pt-2">Apples</p>
+            <div>
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+            </div>
+            <div class="card-actions">
+              <button class=" text-[#F85559] pb-3 font-bold ">Details</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+     <div class=" flex py-10 justify-center">
+      <button class="btn rounded-lg text-white font-bold  bg-[#F85559] py-5 ">Show All</button>
+     </div>
       <!-- Team Section -->
+
       
     </main>
     <!-- Footer section -->
