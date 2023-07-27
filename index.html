@@ -32,23 +32,23 @@
 <body class="font-lato ">
     <header class="max-w-screen-xl mx-auto ">
          <!-- Nav bar section -->
-<nav>
-  <div class="navbar bg-[#F85559] rounded-[70px] mx-auto max-w-screen-xl ">
+<nav class="max-w-screen-xl mx-auto"  >
+  <div class="navbar bg-[#F85559] rounded-[70px] ">
     <div class="navbar-start">
-      <div class=" sm:dropdown">
-        <ul class="lg:flex lg:gap-16 px-10 text-xl text-white">
-          <li>Home</li>
-          <li>about</li>
-          <li>Contact</li>
-          <li>Bill</li>
+      <div class="">
+        <ul class="lg:flex items-center lg:gap-16 px-10 text-xl text-white">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Bill</a></li>
         </ul>
       </div>
     </div>
     <div class="navbar-center ">
       <img src="./images/logo.png" alt="">
-      <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+      <a class=" mx-3 text-white normal-case text-2xl">Fruit Burst</a>
     </div>
-    <div class="navbar-end  ">
+    <div class="navbar-end ">
     <input class="rounded-xl px-4" type="search" placeholder="Search Here">
     <button class="btn btn-ghost btn-circle relative">
       <svg xmlns="http://www.w3.org/2000/svg"  class="h-5 w-5 absolute -left-8 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
@@ -63,9 +63,9 @@
          <!-- Slider Section -->
          <div class="carousel max-w-screen-xl  my-10">
           <!-- Slide one -->
-          <div id="slide1" class="carousel-item relative max-w-screen-xl  lg:w-full">
+          <div id="slide1" class="carousel-item relative   w-full">
             <div>
-              <img src="./images/banner1.png" class="max-w-screen-xl lg:w-full " />
+              <img src="./images/banner1.png" class="   " />
               <div class="items-center relative -my-[180px] md:-my-[250px] lg:-my-[350px] space-y-1  lg:space-y-4 pt-5 text-center text-white">
                 <h1 class="text-2xl lg:text-4xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                 <p>We supply highly quality organic products</p>
@@ -81,9 +81,9 @@
             </div>
           </div> 
           <!-- Slide Two -->
-          <div id="slide2" class="carousel-item max-w-screen-xl relative lg:w-full">
+          <div id="slide2" class="carousel-item  relative w-full">
             <div>
-              <img src="./images/banner2.png" class="lg:w-full max-w-screen-xl" />
+              <img src="./images/banner2.png" class=" " />
               <div class="items-center relative -my-[180px] md:-my-[250px] lg:-my-[350px] space-y-1  lg:space-y-4 pt-5 text-center text-white">
                 <h1 class="text-2xl lg:text-4xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                 <p>We supply highly quality organic products</p>
@@ -99,10 +99,10 @@
             </div>
           </div> 
           <!-- Slide Three -->
-          <div id="slide3" class="carousel-item max-w-screen-xl relative lg:w-full">
+          <div id="slide3" class="carousel-item  relative w-full">
            
             <div>
-              <img src="./images/banner2.png" class="lg:w-full max-w-screen-xl" />
+              <img src="./images/banner3.png" class=" " />
               <div class="items-center relative -my-[180px] md:-my-[250px] lg:-my-[350px] space-y-1  lg:space-y-4 pt-5 text-center text-white">
                 <h1 class="text-2xl lg:text-4xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
                 <p>We supply highly quality organic products</p>
@@ -114,12 +114,14 @@
 
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide2" class="btn btn-circle">❮</a> 
-              <a href="#slide1" class="btn btn-circle">❯</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
           </div> 
           <!-- Slide Four -->
-          <div id="slide4" class="carousel-item max-w-screen-xl relative lg:w-full">
-            <img src="./images/banner4.png" class="lg:w-full max-w-screen-xl" />
+          <div id="slide4" class="carousel-item  relative w-full">
+            <div>
+              <img src="./images/banner4.png" class=" " />
+            </div>
             <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide3" class="btn btn-circle">❮</a> 
               <a href="#slide1" class="btn btn-circle">❯</a>
@@ -129,7 +131,7 @@
         </div>
 
       <!-- Slider Bonus Part -->
-      <div class=" hidden relative h-[200px] lg:max-w-[700px] lg:mx-auto lg:bg-white lg:rounded-lg lg:flex lg:items-center lg:justify-around lg:-my-20">
+      <div class=" hidden relative h-[200px] lg:max-w-[700px] lg:mx-auto lg:bg-white lg:rounded-lg lg:flex lg:items-center lg:justify-around lg:-my-32 ">
         <img class="h-20" src="./images/fruit1.png" alt="">
         <img class="h-20" src="./images/fruit2.png" alt="">
         <img class="h-20" src="./images/fruit3.png" alt="">
@@ -145,7 +147,7 @@
     <main>
 
       <!-- Deal of the day Section -->
-      <div class="my-28 max-w-screen-xl mx-auto flex items-center gap-7 flex-col lg:flex-row justify-between">
+      <div class="my-36 max-w-screen-xl mx-auto flex items-center gap-7 flex-col lg:flex-row justify-between">
         <!-- Text Deal of the Day -->
         <div class="space-y-2 px-6">
           <h2 class="text-5xl font-extrabold py-4 lg:text-left text-center ">Deal of the day</h2>
@@ -449,12 +451,12 @@
       <!-- Why choose us section -->
       <div class="max-w-screen-xl mx-auto  ">
         <h2 class="text-5xl font-extrabold py-5 text-center">Why chose us </h2>
-        <p class="text-lg font-medium py-5 mb-5 text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <p class="text-lg font-medium py-5 gap-5 mb-5 text-center"> Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
        <!-- text-image container choose section -->
-        <div class="flex max-w-screen-xl mx-auto ">
+        <div class="flex flex-col lg:flex-row max-w-screen-xl mx-auto ">
        
-         <DIV class="GRID grid-cols-1 flex-1 space-y-4">
-          <div  class="flex  gap-5 ">
+         <DIV class="GRID grid-cols-1 flex-1 gap-6 mt-5 space-y-4">
+          <div  class="flex  gap-5 py-5 ">
             <div class="h-20 w-20 rounded-[50%]   bg-gray-200 ">
               <i class="fa-solid fa-people-group pt-7 pr-5 w-24 h-24 text-center"></i>
             </div>
@@ -465,22 +467,22 @@
            </div>
           </div>
 
-          <div  class="flex  gap-5">
+          <div  class="flex py-10  gap-5">
             <div class="h-20 w-20 rounded-[50%]  bg-gray-200 ">
               <i class="fa-solid fa-people-group pt-7 pr-5 w-24 h-24 text-center"></i>
             </div>
            <div>
-            <h2 class="font-extrabold ">Dedicated Team</h2>
+            <h2 class="font-extrabold ">Fresh is Best</h2>
             
             <p>Professional employees are there for you to pick  the most  amazing and fresh fruits.</p>
            </div>
           </div>
-          <div  class="flex  gap-5">
+          <div  class="flex py-5  gap-5">
             <div class="h-20 w-20 rounded-[50%]  bg-gray-200 ">
               <i class="fa-solid fa-people-group pt-7 pr-5 w-24 h-24 text-center"></i>
             </div>
            <div>
-            <h2 class="font-extrabold ">Dedicated Team</h2>
+            <h2 class="font-extrabold ">Gift Certificates</h2>
             
             <p>Professional employees are there for you to pick  the most  amazing and fresh fruits.</p>
            </div>
@@ -492,14 +494,14 @@
          
           <!-- Seccond left end -->
           <!-- Middle Section -->
-          <div class="flex-1 ">
+          <div class="flex-1 my-6 ">
             <img class="h-full" src="./images/whychoose1.png" alt="">
           </div>
           
 
 <!-- tHIRD sECTION -->
             <DIV class="GRID grid-cols-1 space-y-4 flex-1">
-              <div class="flex gap-5   ">
+              <div class="flex gap-5 py-5   ">
                 <div >
                   <h2 class="font-extrabold text-2xl text-right">Integrated Supplier</h2>
                 <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -510,9 +512,9 @@
                 
               </div>
 
-              <div class="flex gap-5">
+              <div class="flex gap-5 py-10">
                 <div >
-                  <h2 class="font-extrabold text-2xl text-right">Integrated Supplier</h2>
+                  <h2 class="font-extrabold text-2xl text-right">Sustainable Practice</h2>
                 <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
                 <div class="h-20 w-20 rounded-[50%]   bg-gray-200">
@@ -521,9 +523,9 @@
                 
               </div>
 
-              <div class="flex gap-5">
+              <div class="flex gap-5 py-5">
                 <div >
-                  <h2 class="font-extrabold text-2xl text-right">Integrated Supplier</h2>
+                  <h2 class="font-extrabold text-2xl text-right">The Benefits Only</h2>
                 <p class="text-right">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
                 <div class="h-20 w-20 rounded-[50%]  bg-gray-200">
